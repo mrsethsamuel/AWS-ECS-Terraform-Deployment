@@ -24,16 +24,10 @@ Before you begin with the deployment, ensure that you have the following prerequ
    git clone https://github.com/mrsethsamuel/AWS-ECS-Terraform-Deployment.git
    ```
 
-2. Copy the sample.tfvars file and create a new .tfvars file:
-
-```bash
-cp terraform.tfvars
-```
-
-3. Open `terraform.tfvars` and fill in the necessary values for your deployment.
+2. Open `infra/terraform.tfvars` and fill in the necessary values for your deployment.
 
 
-4. Run the following commands to deploy example-Infrastructure on AWS ECS with Fargate:
+3. Run the following commands to deploy example-Infrastructure on AWS ECS with Fargate:
 
 ```bash
 #!/bin/bash
